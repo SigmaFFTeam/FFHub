@@ -1,3 +1,7 @@
+--[[
+loadstring script:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SigmaFFTeam/FFHub/main/script.lua"))()
+]]
 getgenv().SecureMode = true
 local lib = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 local plr = game:GetService("Players").LocalPlayer
